@@ -17,7 +17,7 @@ where
 order by
 	order_date desc
   
-With claush(CTE): It serves as a function/template.
+With clause(CTE): It serves as a function/template.
 # Example
 with cte as( /*name the CTE chunk*/
     select distinct a.id
@@ -39,3 +39,8 @@ a.id not in(
   select id
   from cte
 )
+
+Select value within a range
+[a,b]: between a and b / where xxx >= a and xxx <= b
+(a,b): where xxx > a and xxx < b
+Add not at the front to exclud the range
