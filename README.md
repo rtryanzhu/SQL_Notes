@@ -1,5 +1,6 @@
 # SQL_Notes
-# Subquery: Use another query as the condition in its superior query.
+# Subquery
+Use another query as the condition in its superior query.
 ## Example
 select 
 	order_id, order_date, customer_id
@@ -17,7 +18,8 @@ where
 order by
 	order_date desc
   
-# With clause(CTE): It serves as a function/template.
+# With clause(CTE)
+It serves as a function/template.
 ## Example
 with cte as( /*name the CTE chunk*/
     select distinct a.id
