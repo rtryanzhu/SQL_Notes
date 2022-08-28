@@ -1,6 +1,6 @@
 # SQL_Notes
-Subquery: Use another query as the condition in its superior query.
-# Example
+# Subquery: Use another query as the condition in its superior query.
+## Example
 select 
 	order_id, order_date, customer_id
 from 
@@ -17,8 +17,8 @@ where
 order by
 	order_date desc
   
-With clause(CTE): It serves as a function/template.
-# Example
+# With clause(CTE): It serves as a function/template.
+## Example
 with cte as( /*name the CTE chunk*/
     select distinct a.id
     from highschooler as a/*set alias for table highschooler*/
@@ -40,7 +40,7 @@ a.id not in(
   from cte
 )
 
-Select value within a range
+# Select value within a range
 [a,b]: between a and b / where xxx >= a and xxx <= b
 (a,b): where xxx > a and xxx < b
 Add not at the front to exclud the range
