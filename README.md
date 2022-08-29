@@ -1,4 +1,7 @@
 # SQL_Notes
+## A detailed tutorial
+https://www.sqlservertutorial.net/sql-server-basics/
+
 # Subquery
 Use another query as the condition in its superior query.
 ## Example
@@ -46,3 +49,5 @@ a.id not in(
 [a,b]: between a and b / where xxx >= a and xxx <= b
 (a,b): where xxx > a and xxx < b
 Add not at the front to exclud the range
+# Select Top xxx rows, Top xxx rows after xxx rows, Top xxx rows without ties
+
