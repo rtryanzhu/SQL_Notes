@@ -50,4 +50,7 @@ a.id not in(
 (a,b): where xxx > a and xxx < b
 Add not at the front to exclud the range
 # Select Top xxx rows, Top xxx rows after xxx rows, Top xxx rows without ties
-
+OFFSET:
+OFFSET & FETCH:
+TOP:
+TOP WITH TIES
