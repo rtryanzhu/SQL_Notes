@@ -1,0 +1,9 @@
+# Case when ... end as ...
+Create a new variable based on the current variables
+select var1, var2,
+case
+  when var3 > condition1 then value1
+  when var  > condition2 then value2
+  else value3
+end as var4
+from table
